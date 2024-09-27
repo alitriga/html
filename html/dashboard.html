@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Penjualan Kacang GDR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        .sidebar {
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            padding-top: 56px;
+            background-color: #f8f9fa;
+        }
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dashboard Kacang GDR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <ul class="nav flex-column">
+            <!-- Sidebar for Admin -->
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Dashboard Admin</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kelola Produk</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kelola Pelanggan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kelola Distributor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Laporan Penjualan</a>
+            </li>
+
+            <!-- Sidebar for Pelanggan -->
+            <li class="nav-item">
+                <a class="nav-link" href="#">Dashboard Pelanggan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Belanja Produk</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Riwayat Pembelian</a>
+            </li>
+
+            <!-- Sidebar for Distributor -->
+            <li class="nav-item">
+                <a class="nav-link" href="#">Dashboard Distributor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kelola Stok</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pengiriman Produk</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h1>Selamat Datang di Dashboard Penjualan Kacang GDR</h1>
+        <p>Pilih menu di sebelah kiri untuk memulai.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
